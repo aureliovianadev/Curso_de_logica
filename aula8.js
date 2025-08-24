@@ -24,3 +24,5 @@ function verificaParImpar (num){
 var numero = parseInt(prompt('Digite um numero para verificar se é par ou impar'))
 
 console.log(numero + verificaParImpar(numero))
+
+// teste de commit
