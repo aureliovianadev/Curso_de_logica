@@ -42,7 +42,8 @@ function analizanome(){
    console.log('O comprimento do seu nome é: '+nome.length)
    console.log('O seu nome em maiúsculo é: ' + nome.toUpperCase())
    console.log('O seu nome em minúsculo é: ' + nome.toLowerCase())
-   console.log('A primeira letra do seu nome é: ' + nome.to)
+   console.log('A primeira letra do seu nome é: ' + nome[0])
+   console.log('A última letra do seu nome é: ' + nome[6])
 }
 
 let nome = prompt('Digite um nome:')
